@@ -94,7 +94,6 @@ public class Pattern
 							upL = false;
 						}
 						
-						// if( ! array[ x ][ y ].equals( "" ) )
 						if( array[ x ][ y ] != 0 )
 						{
 							x ++;
@@ -105,7 +104,6 @@ public class Pattern
 						x --;
 						y ++;
 						
-						// if( ! array[ x ][ y ].equals( "" ) )
 						if( array[ x ][ y ] != 0 )
 						{
 							x ++;
