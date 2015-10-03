@@ -98,16 +98,16 @@ public class Pattern
     
         System.out.println( "\n\nMajors values by row:" );
 
-        for( int i = 0; i < byRows.length; i++ )
+        for( Integer V : byRows )
         {
-            System.out.print( byRows[ i ] + "  " );
+            System.out.print( V + "  " );
         }
 
         System.out.println( "\n\nMajors values by column:" );
 
-        for( int i = 0; i < byCols.length; i++ )
+        for( Integer V : byCols )
         {
-            System.out.print( byCols[ i ] + "  " );
+            System.out.print( V + "  " );
         }
 
         System.out.println( "\n\nMajor value in primary diagonal:\n" + maxDiag1 );
