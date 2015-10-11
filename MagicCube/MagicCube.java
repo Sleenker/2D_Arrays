@@ -28,15 +28,11 @@ public class MagicCube
     public void printPath( int size )
     {
         int[][] array = new int[ size ][ size ];
-        int x = 1, y;
+        int x = 1, y = array.length / 2 - 1;
 
         if( size % 2 == 0 )
         {
             y = array.length / 2 - 2;
-        }
-        else
-        {
-            y = array.length / 2 - 1;
         }
 
         for( int i = 0; i < array.length * array.length; i++ )
